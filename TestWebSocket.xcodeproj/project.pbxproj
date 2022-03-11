@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9664E80027D9C2850066B611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664E7FF27D9C2850066B611 /* AppDelegate.swift */; };
+		9664E80227D9C2850066B611 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664E80127D9C2850066B611 /* SceneDelegate.swift */; };
+		9664E80427D9C2850066B611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664E80327D9C2850066B611 /* ViewController.swift */; };
+		9664E80727D9C2850066B611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9664E80527D9C2850066B611 /* Main.storyboard */; };
+		9664E80927D9C2860066B611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9664E80827D9C2860066B611 /* Assets.xcassets */; };
+		9664E80C27D9C2860066B611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9664E80A27D9C2860066B611 /* LaunchScreen.storyboard */; };
+		9664E81727D9C2860066B611 /* TestWebSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664E81627D9C2860066B611 /* TestWebSocketTests.swift */; };
+		9664E82127D9C2860066B611 /* TestWebSocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664E82027D9C2860066B611 /* TestWebSocketUITests.swift */; };
+		9664E82327D9C2860066B611 /* TestWebSocketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664E82227D9C2860066B611 /* TestWebSocketUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9664E81327D9C2860066B611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9664E7F427D9C2850066B611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9664E7FB27D9C2850066B611;
+			remoteInfo = TestWebSocket;
+		};
+		9664E81D27D9C2860066B611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9664E7F427D9C2850066B611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9664E7FB27D9C2850066B611;
+			remoteInfo = TestWebSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9664E7FC27D9C2850066B611 /* TestWebSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9664E7FF27D9C2850066B611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9664E80127D9C2850066B611 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9664E80327D9C2850066B611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9664E80627D9C2850066B611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9664E80827D9C2860066B611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9664E80B27D9C2860066B611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9664E80D27D9C2860066B611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9664E81227D9C2860066B611 /* TestWebSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9664E81627D9C2860066B611 /* TestWebSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebSocketTests.swift; sourceTree = "<group>"; };
+		9664E81C27D9C2860066B611 /* TestWebSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9664E82027D9C2860066B611 /* TestWebSocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebSocketUITests.swift; sourceTree = "<group>"; };
+		9664E82227D9C2860066B611 /* TestWebSocketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWebSocketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9664E7F927D9C2850066B611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9664E80F27D9C2860066B611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9664E81927D9C2860066B611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9664E7F327D9C2850066B611 = {
+			isa = PBXGroup;
+			children = (
+				9664E7FE27D9C2850066B611 /* TestWebSocket */,
+				9664E81527D9C2860066B611 /* TestWebSocketTests */,
+				9664E81F27D9C2860066B611 /* TestWebSocketUITests */,
+				9664E7FD27D9C2850066B611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9664E7FD27D9C2850066B611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9664E7FC27D9C2850066B611 /* TestWebSocket.app */,
+				9664E81227D9C2860066B611 /* TestWebSocketTests.xctest */,
+				9664E81C27D9C2860066B611 /* TestWebSocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9664E7FE27D9C2850066B611 /* TestWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9664E7FF27D9C2850066B611 /* AppDelegate.swift */,
+				9664E80127D9C2850066B611 /* SceneDelegate.swift */,
+				9664E80327D9C2850066B611 /* ViewController.swift */,
+				9664E80527D9C2850066B611 /* Main.storyboard */,
+				9664E80827D9C2860066B611 /* Assets.xcassets */,
+				9664E80A27D9C2860066B611 /* LaunchScreen.storyboard */,
+				9664E80D27D9C2860066B611 /* Info.plist */,
+			);
+			path = TestWebSocket;
+			sourceTree = "<group>";
+		};
+		9664E81527D9C2860066B611 /* TestWebSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				9664E81627D9C2860066B611 /* TestWebSocketTests.swift */,
+			);
+			path = TestWebSocketTests;
+			sourceTree = "<group>";
+		};
+		9664E81F27D9C2860066B611 /* TestWebSocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9664E82027D9C2860066B611 /* TestWebSocketUITests.swift */,
+				9664E82227D9C2860066B611 /* TestWebSocketUITestsLaunchTests.swift */,
+			);
+			path = TestWebSocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9664E7FB27D9C2850066B611 /* TestWebSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9664E82627D9C2860066B611 /* Build configuration list for PBXNativeTarget "TestWebSocket" */;
+			buildPhases = (
+				9664E7F827D9C2850066B611 /* Sources */,
+				9664E7F927D9C2850066B611 /* Frameworks */,
+				9664E7FA27D9C2850066B611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWebSocket;
+			productName = TestWebSocket;
+			productReference = 9664E7FC27D9C2850066B611 /* TestWebSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9664E81127D9C2860066B611 /* TestWebSocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9664E82927D9C2860066B611 /* Build configuration list for PBXNativeTarget "TestWebSocketTests" */;
+			buildPhases = (
+				9664E80E27D9C2860066B611 /* Sources */,
+				9664E80F27D9C2860066B611 /* Frameworks */,
+				9664E81027D9C2860066B611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9664E81427D9C2860066B611 /* PBXTargetDependency */,
+			);
+			name = TestWebSocketTests;
+			productName = TestWebSocketTests;
+			productReference = 9664E81227D9C2860066B611 /* TestWebSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9664E81B27D9C2860066B611 /* TestWebSocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9664E82C27D9C2860066B611 /* Build configuration list for PBXNativeTarget "TestWebSocketUITests" */;
+			buildPhases = (
+				9664E81827D9C2860066B611 /* Sources */,
+				9664E81927D9C2860066B611 /* Frameworks */,
+				9664E81A27D9C2860066B611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9664E81E27D9C2860066B611 /* PBXTargetDependency */,
+			);
+			name = TestWebSocketUITests;
+			productName = TestWebSocketUITests;
+			productReference = 9664E81C27D9C2860066B611 /* TestWebSocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9664E7F427D9C2850066B611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9664E7FB27D9C2850066B611 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9664E81127D9C2860066B611 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9664E7FB27D9C2850066B611;
+					};
+					9664E81B27D9C2860066B611 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9664E7FB27D9C2850066B611;
+					};
+				};
+			};
+			buildConfigurationList = 9664E7F727D9C2850066B611 /* Build configuration list for PBXProject "TestWebSocket" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9664E7F327D9C2850066B611;
+			productRefGroup = 9664E7FD27D9C2850066B611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9664E7FB27D9C2850066B611 /* TestWebSocket */,
+				9664E81127D9C2860066B611 /* TestWebSocketTests */,
+				9664E81B27D9C2860066B611 /* TestWebSocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9664E7FA27D9C2850066B611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9664E80C27D9C2860066B611 /* LaunchScreen.storyboard in Resources */,
+				9664E80927D9C2860066B611 /* Assets.xcassets in Resources */,
+				9664E80727D9C2850066B611 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9664E81027D9C2860066B611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9664E81A27D9C2860066B611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9664E7F827D9C2850066B611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9664E80427D9C2850066B611 /* ViewController.swift in Sources */,
+				9664E80027D9C2850066B611 /* AppDelegate.swift in Sources */,
+				9664E80227D9C2850066B611 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9664E80E27D9C2860066B611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9664E81727D9C2860066B611 /* TestWebSocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9664E81827D9C2860066B611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9664E82327D9C2860066B611 /* TestWebSocketUITestsLaunchTests.swift in Sources */,
+				9664E82127D9C2860066B611 /* TestWebSocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9664E81427D9C2860066B611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9664E7FB27D9C2850066B611 /* TestWebSocket */;
+			targetProxy = 9664E81327D9C2860066B611 /* PBXContainerItemProxy */;
+		};
+		9664E81E27D9C2860066B611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9664E7FB27D9C2850066B611 /* TestWebSocket */;
+			targetProxy = 9664E81D27D9C2860066B611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9664E80527D9C2850066B611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9664E80627D9C2850066B611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9664E80A27D9C2860066B611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9664E80B27D9C2860066B611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9664E82427D9C2860066B611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9664E82527D9C2860066B611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9664E82727D9C2860066B611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestWebSocket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWebSocket.TestWebSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9664E82827D9C2860066B611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestWebSocket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWebSocket.TestWebSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9664E82A27D9C2860066B611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWebSocket.TestWebSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWebSocket.app/TestWebSocket";
+			};
+			name = Debug;
+		};
+		9664E82B27D9C2860066B611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWebSocket.TestWebSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWebSocket.app/TestWebSocket";
+			};
+			name = Release;
+		};
+		9664E82D27D9C2860066B611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWebSocket.TestWebSocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestWebSocket;
+			};
+			name = Debug;
+		};
+		9664E82E27D9C2860066B611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWebSocket.TestWebSocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestWebSocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9664E7F727D9C2850066B611 /* Build configuration list for PBXProject "TestWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9664E82427D9C2860066B611 /* Debug */,
+				9664E82527D9C2860066B611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9664E82627D9C2860066B611 /* Build configuration list for PBXNativeTarget "TestWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9664E82727D9C2860066B611 /* Debug */,
+				9664E82827D9C2860066B611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9664E82927D9C2860066B611 /* Build configuration list for PBXNativeTarget "TestWebSocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9664E82A27D9C2860066B611 /* Debug */,
+				9664E82B27D9C2860066B611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9664E82C27D9C2860066B611 /* Build configuration list for PBXNativeTarget "TestWebSocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9664E82D27D9C2860066B611 /* Debug */,
+				9664E82E27D9C2860066B611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9664E7F427D9C2850066B611 /* Project object */;
+}
